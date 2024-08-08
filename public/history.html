@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Counter Dashboard</title>
+    <link href="assets/css/pace.min.css" rel="stylesheet">
+    <script src="assets/js/pace.min.js"></script>
+    <link rel="icon" href="assets/images/andey.png" type="image/png">
+    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/sidebar-menu.css" rel="stylesheet">
+    <link href="assets/css/app-style.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-theme bg-theme1">
+    
+    <div id="pageloader-overlay" class="visible incoming">
+      <div class="loader-wrapper-outer">
+        <div class="loader-wrapper-inner">
+          <div class="loader"></div>
+        </div>
+      </div>
+    </div>
+    <div id="wrapper">
+      <div id="sidebar-wrapper"
+        data-simplebar=""
+        data-simplebar-auto-hide="true"
+      >
+        <div class="brand-logo">
+          <a href="index.html">
+            <img
+              src="assets/images/andey.png"
+              class="logo-icon"
+              alt="logo icon">
+            <h5 class="logo-text">Counter Dashboard</h5>
+          </a>
+        </div>
+        <ul class="sidebar-menu do-nicescrol">
+          <li class="sidebar-header">MAIN COMPONENTS</li>
+          <li>
+            <a href="index.html">
+              <i class="zmdi zmdi-home"></i> <span>Dashboard</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="history.html">
+              <i class="zmdi zmdi-grid"></i> <span>History</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <header class="topbar-nav">
+        <nav class="navbar navbar-expand fixed-top">
+          <ul class="navbar-nav mr-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link toggle-menu" href="javascript:void();">
+                <i class="icon-menu menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <form class="search-bar">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter keywords">
+                <a href="javascript:void();"><i class="icon-magnifier"></i></a>
+              </form>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto align-items-center">
+            <!-- Download CSV button -->
+            <li class="nav-item">
+                <button id="downloadCSVButton" class="btn btn-primary">Download CSV</button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div class="clearfix"></div>
+
+      <div class="content-wrapper">
+        <div class="container-fluid">
+          <div class="row mt-3">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Object Z3</h5>
+                  <div class="table-responsive">
+                    <table class="table" id="objectZ3Table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Zone</th>
+                          <th scope="col">Daily Count</th> 
+                          <th scope="col">Weekly Count</th>
+                          <th scope="col">Monthly Count</th>
+                          <th scope="col">Yearly Count</th>
+                        </tr>
+                      </thead>
+                      <tbody id="objectZ3TableBody">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Object Z4</h5>
+                  <div class="table-responsive">
+                    <table class="table table-bordered"  id="objectZ4Table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Zone</th>
+                          <th scope="col">Daily Count</th> 
+                          <th scope="col">Weekly Count</th>
+                          <th scope="col">Monthly Count</th>
+                          <th scope="col">Yearly Count</th>
+                        </tr>
+                      </thead>
+                      <tbody id="objectZ4TableBody">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Object Z5</h5>
+                  <div class="table-responsive">
+                    <table class="table table-striped"  id="objectZ5Table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Zone</th>
+                          <th scope="col">Daily Count</th> 
+                          <th scope="col">Weekly Count</th>
+                          <th scope="col">Monthly Count</th>
+                          <th scope="col">Yearly Count</th>
+                        </tr>
+                      </thead>
+                      <tbody id="objectZ5TableBody">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Object Z6</h5>
+                  <div class="table-responsive">
+                    <table class="table table-hover"  id="objectZ6Table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Zone</th>
+                          <th scope="col">Daily Count</th> 
+                          <th scope="col">Weekly Count</th>
+                          <th scope="col">Monthly Count</th>
+                          <th scope="col">Yearly Count</th>
+                        </tr>
+                      </thead>
+                      <tbody id="objectZ6TableBody">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Object Z7</h5>
+                  <div class="table-responsive">
+                    <table class="table table-sm"  id="objectZ7Table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Zone</th>
+                          <th scope="col">Daily Count</th> 
+                          <th scope="col">Weekly Count</th>
+                          <th scope="col">Monthly Count</th>
+                          <th scope="col">Yearly Count</th>
+                        </tr>
+                      </thead>
+                      <tbody id="objectZ7TableBody">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">History Table</h5>
+                  <label for="period">Select Period:</label>
+                  <select id="period" onchange="updateTable()">
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="yearly">Yearly</option>
+                  </select>
+                  <label for="objects">Select Object:</label>
+                  <select id="objects" onchange="updateTable()">
+                    <option value="object1">Object Z3</option>
+                    <option value="object2">Object Z4</option>
+                    <option value="object3">Object Z5</option>
+                    <option value="object4">Object Z6</option>
+                    <option value="object5">Object Z7</option>
+                  </select>
+                  <label for="zones">Select Zone:</label>
+                  <select id="zones" onchange="updateTable()">
+                    <option value="zone1">Zone 1</option>
+                    <option value="zone2">Zone 2</option>
+                    <option value="zone3">Zone 3</option>
+                    <option value="zone4">Zone 4</option>
+                    <option value="zone5">Zone 5</option>
+                   
+                  </select>
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Date</th>
+                          <th scope="col">Sum Count</th>
+                        </tr>
+                      </thead>
+                      <tbody id="historyTableBody">
+                      </tbody>
+                    </table>
+                  </div>
+                  <button onclick="saveAsPDF()">Save as PDF</button>
+                </div>
+              </div>
+            </div>
+          <div class="overlay toggle-menu"></div>
+          
+        </div>
+        
+      </div>
+      <a href="javaScript:void();" class="back-to-top"
+        ><i class="fa fa-angle-double-up"></i>
+      </a>
+      <footer class="footer">
+        <div class="container">
+          <div class="text-center">Copyright © 2014 Counter Dashboard</div>
+        </div>
+      </footer>
+      
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/simplebar/js/simplebar.js"></script>
+    <script src="assets/js/sidebar-menu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.16/jspdf.plugin.autotable.min.js"></script>
+    <script src="assets/js/app-script.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+     function generateCSVData() {
+            let csvData = "Zone,Daily Count,Weekly Count,Monthly Count,Yearly Count\n";
+            
+            // Loop through each table and extract data
+            document.querySelectorAll("table").forEach(function(table) {
+                const rows = table.querySelectorAll("tbody tr");
+                rows.forEach(function(row) {
+                    const columns = row.querySelectorAll("td");
+                    csvData += columns[0].innerText + "," + columns[1].innerText + "," + columns[2].innerText + "," + columns[3].innerText + "," + columns[4].innerText + "\n";
+                });
+            });
+
+            return csvData;
+        }
+
+        // Function to download CSV file
+        function downloadCSV() {
+            const csvData = generateCSVData();
+            const blob = new Blob([csvData], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.setAttribute('hidden', '');
+            a.setAttribute('href', url);
+            a.setAttribute('download', 'dashboard_data.csv');
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
+        // Bind click event to the download button
+        document.getElementById("downloadCSVButton").addEventListener("click", function() {
+            downloadCSV();
+        });
+    </script>
+  </body>
+</html>

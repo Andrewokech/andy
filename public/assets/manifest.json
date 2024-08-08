@@ -1,0 +1,79 @@
+{
+  "id": "/Flowpoint",
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Counter Dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "short_name": "counter",
+  "theme_color": "#5d7382",
+  "description": "Discover a fast and secure Progressive Web App designed for seamless access across devices. With offline functionality and responsive design, stay productive wherever you go. Customize your experience and enjoy uninterrupted access to essential features with Counter Dashboard.\"",
+  "orientation": "any",
+  "background_color": "#3a2f2f",
+  "prefer_related_applications": false,
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/images/screenshot-desktop-wide.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/screenshot-mobile-wide.jpg",
+      "sizes": "840x628",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/World-Web-Wallpaper.jpg",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "low-latency inking",
+    "fast",
+    "useful AI"
+  ],
+  "icons": [
+    {
+      "src": "/assets/images/andey.png",
+      "sizes": "188x188",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/andey.png",
+      "sizes": "188x188",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "productivity"
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {},
+  "shortcuts": [
+    {
+      "name": "Start Live Session",
+      "short_name": "Start Live",
+      "description": "Jump direction into starting or joining a live session",
+      "url": "/?startLive",
+      "icons": [
+        {
+          "src": "/assets/images/andey.png",
+          "sizes": "188x188"
+        }
+      ]
+    }
+  ]
+}

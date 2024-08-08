@@ -1,0 +1,56 @@
+{
+  "name": "counterdashboard",
+  "version": "4.0.0",
+  "description": "A dashboard application for monitoring entries and exits.",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "electron server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "FlowPoint",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^10.0.2",
+    "node-cron": "^3.0.3",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "electron": "^30.0.6",
+    "electron-builder": "^22.14.13"
+  },
+  "build": {
+    "appId": "com.example.counterdashboard",
+    "productName": "Counter Dashboard",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "server/**/*",
+      "public/**/*",
+      "node_modules/**/*",
+      "package.json",
+      "package-lock.json"
+    ],
+    "win": {
+      "icon": "public/assets/images/app.ico"
+    },
+    "mac": {
+      "icon": "public/assets/images/app.icns",
+      "category": "public.app-category.developer-tools",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "linux": {
+      "icon": "public/assets/images/andey.png",
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm"
+      ]
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "chart2Data": {
+    "data": [
+      {
+        "object_id": "Z3",
+        "data_value": 4500
+      },
+      {
+        "object_id": "Z4",
+        "data_value": 1200
+      },
+      {
+        "object_id": "Z5",
+        "data_value": 3400
+      },
+      {
+        "object_id": "Z6",
+        "data_value": 400
+      }
+    ],
+    "timestamp": 1717007695606
+  },
+  "chart1Data": {
+    "data": [
+      {
+        "zone_id": "ZONE 1",
+        "time_label": "09:00-11:00",
+        "data_value": 1334
+      },
+      {
+        "zone_id": "ZONE 1",
+        "time_label": "11:00-13:00",
+        "data_value": 4520
+      },
+      {
+        "zone_id": "ZONE 1",
+        "time_label": "13:00-15:00",
+        "data_value": 3214
+      },
+      {
+        "zone_id": "ZONE 1",
+        "time_label": "15:00-17:00",
+        "data_value": 3418
+      },
+      {
+        "zone_id": "ZONE 1",
+        "time_label": "17:00-19:00",
+        "data_value": 2317
+      },
+      {
+        "zone_id": "ZONE 1",
+        "time_label": "19:00-21:00",
+        "data_value": 4223
+      },
+      {
+        "zone_id": "ZONE 1",
+        "time_label": "21:00-23:00",
+        "data_value": 8000
+      },
+      {
+        "zone_id": "ZONE 2",
+        "time_label": "09:00-11:00",
+        "data_value": 4300
+      },
+      {
+        "zone_id": "ZONE 2",
+        "time_label": "11:00-13:00",
+        "data_value": 3110
+      },
+      {
+        "zone_id": "ZONE 2",
+        "time_label": "13:00-15:00",
+        "data_value": 6234
+      },
+      {
+        "zone_id": "ZONE 2",
+        "time_label": "15:00-17:00",
+        "data_value": 2316
+      },
+      {
+        "zone_id": "ZONE 2",
+        "time_label": "17:00-19:00",
+        "data_value": 1423
+      },
+      {
+        "zone_id": "ZONE 2",
+        "time_label": "19:00-21:00",
+        "data_value": 1000
+      },
+      {
+        "zone_id": "ZONE 2",
+        "time_label": "21:00-23:00",
+        "data_value": 1581
+      },
+      {
+        "zone_id": "ZONE 3",
+        "time_label": "09:00-11:00",
+        "data_value": 5000
+      },
+      {
+        "zone_id": "ZONE 3",
+        "time_label": "11:00-13:00",
+        "data_value": 3430
+      },
+      {
+        "zone_id": "ZONE 3",
+        "time_label": "13:00-15:00",
+        "data_value": 2136
+      },
+      {
+        "zone_id": "ZONE 3",
+        "time_label": "15:00-17:00",
+        "data_value": 6234
+      },
+      {
+        "zone_id": "ZONE 3",
+        "time_label": "17:00-19:00",
+        "data_value": 983
+      },
+      {
+        "zone_id": "ZONE 3",
+        "time_label": "19:00-21:00",
+        "data_value": 124
+      },
+      {
+        "zone_id": "ZONE 3",
+        "time_label": "21:00-23:00",
+        "data_value": 311
+      },
+      {
+        "zone_id": "ZONE 4",
+        "time_label": "09:00-11:00",
+        "data_value": 2300
+      },
+      {
+        "zone_id": "ZONE 4",
+        "time_label": "11:00-13:00",
+        "data_value": 1130
+      },
+      {
+        "zone_id": "ZONE 4",
+        "time_label": "13:00-15:00",
+        "data_value": 6234
+      },
+      {
+        "zone_id": "ZONE 4",
+        "time_label": "15:00-17:00",
+        "data_value": 1236
+      },
+      {
+        "zone_id": "ZONE 4",
+        "time_label": "17:00-19:00",
+        "data_value": 2343
+      },
+      {
+        "zone_id": "ZONE 4",
+        "time_label": "19:00-21:00",
+        "data_value": 4678
+      },
+      {
+        "zone_id": "ZONE 4",
+        "time_label": "21:00-23:00",
+        "data_value": 2311
+      },
+      {
+        "zone_id": "ZONE 5",
+        "time_label": "09:00-11:00",
+        "data_value": 300
+      },
+      {
+        "zone_id": "ZONE 5",
+        "time_label": "11:00-13:00",
+        "data_value": 3140
+      },
+      {
+        "zone_id": "ZONE 5",
+        "time_label": "13:00-15:00",
+        "data_value": 1699
+      },
+      {
+        "zone_id": "ZONE 5",
+        "time_label": "15:00-17:00",
+        "data_value": 1126
+      },
+      {
+        "zone_id": "ZONE 5",
+        "time_label": "17:00-19:00",
+        "data_value": 1700
+      },
+      {
+        "zone_id": "ZONE 5",
+        "time_label": "19:00-21:00",
+        "data_value": 4000
+      },
+      {
+        "zone_id": "ZONE 5",
+        "time_label": "21:00-23:00",
+        "data_value": 2311
+      }
+    ],
+    "timestamp": 1717007695559
+  },
+  "combinedData": {
+    "data": [
+      {
+        "zone": 1,
+        "entry_count": 110,
+        "exit_count": 90,
+        "date": "2024-05-01T00:00:00.000Z"
+      },
+      {
+        "zone": 2,
+        "entry_count": 220,
+        "exit_count": 215,
+        "date": "2024-05-01T00:00:00.000Z"
+      },
+      {
+        "zone": 3,
+        "entry_count": 22,
+        "exit_count": 25,
+        "date": "2024-05-01T00:00:00.000Z"
+      },
+      {
+        "zone": 4,
+        "entry_count": 40,
+        "exit_count": 135,
+        "date": "2024-05-01T00:00:00.000Z"
+      },
+      {
+        "zone": 5,
+        "entry_count": 130,
+        "exit_count": 45,
+        "date": "2024-05-01T00:00:00.000Z"
+      }
+    ],
+    "timestamp": 1717007695675
+  }
+}
